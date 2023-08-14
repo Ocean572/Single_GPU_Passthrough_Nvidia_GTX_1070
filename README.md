@@ -12,6 +12,7 @@ Steps:
 3.  Patch vBios with this GitHub link: https://github.com/Matoking/NVIDIA-vBIOS-VFIO-Patcher
 
 Directory structure:
+```
 .
 └── Computer/
     └── etc/
@@ -27,7 +28,8 @@ Directory structure:
                         └── release/
                             └── end/
                                 └── revert.sh
-                                
+```
+
 Notes:
 1.	Must stop all programs associated with the Nvidia graphics card
   a.	This will allow you to unload the drivers and unbind the graphics card
